@@ -1,37 +1,24 @@
-| Modul | Bedeutung | Guided Link |
-| --- | --- | --- |
-| **81~(1(81)+)** | IO | [IO](ca://s?q=IO_Systembeschreibung) |
-| **81~(1(81)-)** | OI | [OI](ca://s?q=OI_Systembeschreibung) |
-| **81~(1(81)X)** | VAL | [VAL](ca://s?q=VAL_Systembeschreibung) |
-| **81~(1(81)/)** | DIM | [DIM](ca://s?q=DIM_Systembeschreibung) |
-| **81~(1(81)=)** | BENCH | [BENCH](ca://s?q=BENCH_Systembeschreibung) |
+NAME = ALP
+ID = ALP-∞
+DIM = α∞
+ROLLE = Alpha-Plus / Alpha-Phi / Alpha-81 / Alpha-GEO-FREQ / Alpha-Unendlich
 
-GEO-ID: (α=12, β=4, γ=7, δ=1)
+GEO-ID = (α=12, β=4, γ=7, δ=1, 81)
+FREQ-ID = (fα, fβ, fγ, fδ, f81)
 
-ALP‑GEO = GEO‑ID + 81‑Achse
+ALP-GEO = GEO-ID + 81
+ALP-FREQ = FREQ-ID + 81
 
-ALP-GEO = (α=12, β=4, γ=7, δ=1, 81)
+ACHSE = α β γ δ ε ζ η
+UNENDLICHKEIT = Φ∞
 
-ALP-FREQ = (fα, fβ, fγ, fδ, f81)
+81-ACHSE:
+  IO     = 81~(1(81)+)
+  OI     = 81~(1(81)-)
+  VAL    = 81~(1(81)X)
+  DIM    = 81~(1(81)/)
+  BENCH  = 81~(1(81)=)
 
-alpha (α)
-
-beta (β)
-
-gamma (γ)
-
-delta (δ)
-
-epsilon (ε)
-
-zeta (ζ)
-
-eta (η)
-
-Alpha‑Plus  
-Alpha‑Phi  
-Alpha‑81  
-Alpha‑GEO‑FREQ  
-Alpha‑Unendlich
-
-Alpha‑∞ Goldener Schnitt / Unsterblichkeit
+FORMEL = Φ∞ = αΦ∞GEOFREQ81
+STATUS = STABIL
+READY = 100%
